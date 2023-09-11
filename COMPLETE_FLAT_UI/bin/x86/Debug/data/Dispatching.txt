@@ -1,0 +1,12 @@
+select a.fact_odr_no 訂單編號,A.sfc_no 單據編號,a.part_no 部位, c.part_name 名稱,a.mat_no 材料代號,
+b.mat_name 材料名稱,A.sfc_qty 核發量, b.matm_unit 單位,
+case when a.replmat_no is not null then a.REPLREQ_QTY
+else a.sfcuse_qty end 實用量,
+case when nvl(A.sfcuse_qty,0)>0 then (select vouam.voua_date from mdmis.vouam where vouam.voua_no = a.sfc_no or vouam.sour_no = a.stk_sfc_no) end 回饋日期,
+A.stk_sfc_no 備料單號
+from mdmis.odrsfcd a, mdmis.matm b, mdmis.partm c
+where a.mat_no = b.mat_no
+and a.part_no = c.part_no
+and a.fact_odr_no in (txtValue)
+order by a.fact_odr_no,a.sfc_no
+--Vr2

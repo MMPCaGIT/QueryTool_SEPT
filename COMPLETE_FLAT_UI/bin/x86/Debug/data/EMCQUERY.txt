@@ -1,0 +1,11 @@
+select a.FACT_ODR_NO,a.PURPLAN_NO, a.PURPLAN_SEQ,a.PART_NO,c.part_name,a.MAT_NO,concat(b.mat_color,b.mat_name) as mat_name,a.PLD_REQ_QTY,a.OLD_REQ_QTY
+from mdmis.purplanm a, mdmis.matm b, mdmis.partm c
+where a.mat_no = b.mat_no
+and a.part_no = c.part_no
+and a.fact_odr_no in (txtValue)
+union all
+select a.FACT_ODR_NO,a.PURPLAN_NO, a.PURPLAN_SEQ,a.PART_NO,c.part_name,a.MAT_NO,concat(b.mat_color,b.mat_name) as mat_name,a.PLD_REQ_QTY,a.OLD_REQ_QTY
+from MDMIS.outwkplan a, mdmis.matm b, mdmis.partm c
+where a.mat_no = b.mat_no
+and a.part_no = c.part_no
+and a.fact_odr_no in (txtValue)

@@ -1,0 +1,9 @@
+select 
+a.vend_no,c.vend_f_name,a.RECEIVMATM_NO,b.receivmatm_seq,b.mat_no,b.purd_vest_qty,receive_qty,edi_weight,insptot_weight,B.PRESENT_MK,a.send_date,a.bg_date,car_sign,a.close_no,a.receivmatm_dt,a.impur_no,b.PRESENT_MK
+from mdmis.receivmatm a, MDMIS.RECEIVMATD b ,mdmis.vendorm c
+where a.receivmatm_no=b.RECEIVMATM_NO  
+and a.vend_no=c.vend_no
+and a.CLOSE_NO='txtValue'
+and a.receivmatm_dt between 'frDate' and 'toDate'
+and a.close_no is not null
+order by bg_date

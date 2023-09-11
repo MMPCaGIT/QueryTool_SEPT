@@ -1,0 +1,13 @@
+select a.fact_no,decode(a.do_mk,'0','0 初始值-','1','1 商編已審','2','2 工廠已審-','5','5 已轉關務') Audit_Status,a.in_date import_date,
+A.REG_NO_C BL_No,A.INV_NO Imvoice_No,A.AGA_LETTER_NO Application_letter,b.impur_no Foreign_purchase_order_NO,A.PURD_NO Order_NO,
+A.IMPRU_SEQ Item,A.VEND_NO Supplier,e.VEND_F_NAME Supplier_Name,A.MAT_NO Material_Code,C.GSCM_MAT_NO MLM_ID,c.mat_name Material_Description,c.acc_no,d.mat_size SPEC,A.GOODS_NO HS_CODE,A.GOODS_SEQ Serial_No,
+A.CUSTOMS_NAME MIC_material_name,CNT_NO||'--'|| a.AREA_DES Country_of_origin,A.PURD_QTY Order_quantity,A.IN_QTY Quantity_of_arrival,
+B.PI_UNIT Unit,A.RATE1_QTY 法一量,C.FD_UNIT1 法一單位,A.VOLUME 第二法定量,C.FD_UNIT2 法二單位,A.VOLUME_CBM CBM,(a.purd_qty*a.price) Total_Amount,
+A.PRICE Unit_Price,A.DOR_NO Currency,A.FOC_QTY FOC,A.J_WEIGHT Net_Weight,A.M_WEIGHT Gross_Weight,A.PCS_QTY No_of_pieces,A.PACK_WAY Package,
+A.CARTON_NO,a.AREA_DES_HK Country_of_origin,A.OUT_DATE Shipping_Date,A.CONTAIN_NO,A.CTR_ITEM Shipping_items,A.REL_OUT_DATE Manufacturer_Ship_Date,
+A.CLOSE_NO ID_NO,A.J_WEIGHT_HK Net_weight_hk,A.M_WEIGHT_HK Gross_weight_hk,A.PCS_QTY_HK Pieces_hk,
+A.PACK_WAY_HK Packing_hk,A.OUT_QTY Hong_Kong_shipments,a.CNT_NO Country_of_origin_hk,decode(A.TNS_NO,'1','1.CIF','2','2.C&'||'F','3','3.FOB','7','7.EXW') 成交方式
+from mdmis.imp_matin A,mdmis.impurd B,mdmis.matm C,mdmis.purdmats D,mdmis.vendorm E
+where a.mat_no=c.mat_no and a.purd_no= b.purd_no(+) and a.purd_no=d.purd_no(+) and a.vend_no = e.vend_no
+and a.in_date between 'frDate' and 'toDate'
+and a.CLOSE_NO = 'txtValue'

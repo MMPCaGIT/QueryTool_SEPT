@@ -1,0 +1,120 @@
+﻿select mat_no "材料代號",nvl(mat_color,' ')||mat_name "材料名稱規格描述",matm_unit "單位",a "規格",unit_weight "單重",
+GOODS_NO "商品編號",goods_seq "編碼序號",goods_name "商品名稱",decode(unit_weight,0,0,round(1/unit_weight,6)) "單位比重",
+lenth "長度(米)",width "寬度(米)",height "高度(米)",modify_dt "異動日期"
+from
+(SELECT distinct matm.mat_no,
+                matm.mat_name,
+                matm.mat_color,
+                matm.matm_unit,
+                matm.unit_weight,
+                '' A,
+                '' B,
+                GOODSNO.GOODS_NO,
+                goodsno.goods_seq,
+                GOODSNO.GOODS_NAME,
+                to_number('') lenth,
+                to_number('') width,
+                to_number('') height,
+                '' Size_Remark,
+                '' modify_dt,
+                     nvl(matm.weight_type,' ') weight_type
+  FROM mdmis.goodsno, mdmis.matm
+WHERE (matm.goods_no = goodsno.goods_no(+))
+   and (matm.goods_seq = goodsno.goods_seq(+))
+   and (matm.fact_no = goodsno.fact_no(+))
+AND (matm.size_remark = '1')
+--)
+UNION
+SELECT distinct matm.mat_no,
+                matm.mat_name,
+                matm.mat_color,
+                matm.matm_unit,
+                matsize_wgt.unit_weight,
+                matsize_wgt.size_no A,
+                matsize_wgt.size_seq B,
+                GOODSNO.GOODS_NO,
+                goodsno.goods_seq,
+                GOODSNO.GOODS_NAME,
+                to_number('') lenth,
+                to_number('') width,
+                to_number('') height,
+                matm.Size_Remark Size_Remark,
+                matsize_wgt.modify_dt modify_dt,
+                     nvl(matm.weight_type,' ') weight_type
+  FROM mdmis.goodsno, mdmis.matm, mdmis.matsize_wgt
+WHERE (matm.goods_no = goodsno.goods_no(+))
+   and (matm.goods_seq = goodsno.goods_seq(+))
+   and (matm.fact_no = goodsno.fact_no(+))
+   and (matsize_wgt.fact_no = matm.fact_no)
+   and (matsize_wgt.mat_no = matm.mat_no)
+AND (matm.size_remark = '2')
+--)
+UNION
+SELECT distinct matm.mat_no,
+                matm.mat_name,
+                matm.mat_color,
+                matm.matm_unit,
+                matsize_wgt.unit_weight,
+                matsize_wgt.mat_size A,
+                matsize_wgt.size_seq B,
+                GOODSNO.GOODS_NO,
+                goodsno.goods_seq,
+                GOODSNO.GOODS_NAME,
+                ROUND((CTNSPEC.CTNSPEC_LEN_I +
+                      NVL(CTNSPEC.CTNSPEC_LEN_E /
+                           DECODE(CTNSPEC.CTNSPEC_LEN_D, 0, null),
+                           0)) * 2.54 / 100,
+                      3) LENTH,
+                ROUND((CTNSPEC.CTNSPEC_WID_I +
+                      NVL(CTNSPEC.CTNSPEC_WID_E /
+                           DECODE(CTNSPEC.CTNSPEC_WID_D, 0, null),
+                           0)) * 2.54 / 100,
+                      3) WIDTH,
+                round((CTNSPEC.CTNSPEC_HIG_I +
+                      nvl(CTNSPEC.CTNSPEC_HIG_E /
+                           decode(CTNSPEC.CTNSPEC_HIG_D, 0, null),
+                           0)) * 2.54 / 100,
+                      3) height,
+                matm.Size_Remark Size_Remark,
+                matsize_wgt.modify_dt modify_dt,
+                     nvl(matm.weight_type,' ') weight_type
+  FROM mdmis.goodsno, mdmis.matm, mdmis.matsize_wgt, mdmis.CTNSPEC
+WHERE (matm.goods_no = goodsno.goods_no(+))
+   and (matm.goods_seq = goodsno.goods_seq(+))
+   and (matm.fact_no = goodsno.fact_no(+))
+   and (matsize_wgt.fact_no = matm.fact_no)
+   and (matsize_wgt.mat_no = matm.mat_no)
+   and MATSIZE_WGT.FACT_NO = CTNSPEC.FACT_NO(+)
+   and MATSIZE_WGT.MAT_SIZE = CTNSPEC.CTNSPEC_NO(+)
+AND  (matm.size_remark = '3') and (CTNSPEC.unit_mk(+) = '1')
+--)
+UNION
+SELECT distinct matm.mat_no,
+                matm.mat_name,
+                matm.mat_color,
+                matm.matm_unit,
+                matsize_wgt.unit_weight,
+                matsize_wgt.mat_size A,
+                matsize_wgt.size_seq B,
+                GOODSNO.GOODS_NO,
+                goodsno.goods_seq,
+                GOODSNO.GOODS_NAME,
+                ROUND(CTNSPEC.CTNSPEC_LEN_I / 1000, 3) LENTH,
+                ROUND(CTNSPEC.CTNSPEC_WID_I / 1000, 3) WIDTH,
+                round(CTNSPEC.CTNSPEC_HIG_I / 1000, 3) height,
+                matm.Size_Remark Size_Remark,
+                matsize_wgt.modify_dt modify_dt,
+                     nvl(matm.weight_type,' ') weight_type
+  FROM mdmis.goodsno, mdmis.matm, mdmis.matsize_wgt, mdmis.CTNSPEC
+WHERE (matm.goods_no = goodsno.goods_no(+))
+   and (matm.goods_seq = goodsno.goods_seq(+))
+   and (matm.fact_no = goodsno.fact_no(+))
+   and (matsize_wgt.fact_no = matm.fact_no)
+   and (matsize_wgt.mat_no = matm.mat_no)
+   and MATSIZE_WGT.FACT_NO = CTNSPEC.FACT_NO(+)
+   and MATSIZE_WGT.MAT_SIZE = CTNSPEC.CTNSPEC_NO(+)
+--   and ((matm.fact_no = :as_fact_no) AND
+
+AND (matm.size_remark = '3') and (CTNSPEC.unit_mk(+) = '2')
+--)
+)

@@ -1,0 +1,58 @@
+select * from
+((select 
+    DISTINCT a.impur_date LAST_PUR_DATE,
+    a.PI_UNIT,
+    a.IMPUR_PRICE,
+    f.COIN_KIND,
+    c.pur_policy,
+    a.mat_no,
+    c.mat_name,
+    a.vend_no,b.vend_name
+            from (
+                    select b.COIN_KIND,
+                    b.PI_UNIT,
+                    a.impur_no,
+                    a.vend_no,
+                    a.impur_date,
+                    b.mat_no,
+                    B.IMPUR_PRICE,
+                    ROW_NUMBER() OVER (PARTITION BY b.mat_no ORDER BY a.impur_date desc) rnt
+                        from mdmis.impurm A, mdmis.impurd B
+                            where
+                            a.impur_no=b.impur_no)A,
+                            mdmis.vendorm B,
+                            mdmis.matm C,--mdmis.matm d,
+                            (select KIND_TYPE_DESC COIN_KIND,KIND_TYPE from mdmis.kindd where KIND_NO = 'C1')f
+                                        where A.vend_no=B.vend_no and A.mat_no=C.mat_no
+                                            and F.KIND_TYPE = A.COIN_KIND 
+                                            --and a.mat_no=d.mat_no
+                                            and A.rnt = 1) UNION
+(select 
+    DISTINCT a.impur_date LAST_PUR_DATE,
+    a.PI_UNIT,
+    a.IMPUR_PRICE,
+    nvl(a.COIN_KIND,b.coin_kind) COIN_KIND,
+    c.pur_policy,
+    a.mat_no,
+    c.mat_name,
+    a.vend_no,b.vend_name
+            from (
+                    select
+                    b.COIN_KIND,
+                    b.PI_UNIT,
+                    a.impur_no,
+                    a.vend_no,
+                    a.impur_date,
+                    b.mat_no,
+                    nvl(b.impur_price,TO_CHAR('0.000'))as impur_price,
+                    ROW_NUMBER() OVER (PARTITION BY b.mat_no ORDER BY a.impur_date desc) rnt
+                        from mdmis.impurm a, mdmis.impurd b
+                            where
+                            a.impur_no=b.impur_no)A,
+                            mdmis.vendorm B,
+                            mdmis.matm C--mdmis.matm d,
+                                        where A.vend_no=B.vend_no and A.mat_no=C.mat_no
+                                            and A.impur_price =0.0
+                                            --and a.mat_no=d.mat_no
+                                            and A.rnt = 1))
+where mat_no = 'txtValue'

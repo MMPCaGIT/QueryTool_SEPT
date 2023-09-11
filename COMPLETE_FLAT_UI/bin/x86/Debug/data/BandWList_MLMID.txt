@@ -1,0 +1,4 @@
+select a.fact_no,a.w_mat_no,(select gscm_mat_no from mdmis.matm where mat_no=a.w_mat_no) W_MLMID,
+a.mat_description1,a.b_mat_no,(select gscm_mat_no from mdmis.matm where mat_no=a.b_mat_no)B_MLMID,
+a.mat_description2,a.modify_user,a.modify_date 
+from mdmis.bw_matm a

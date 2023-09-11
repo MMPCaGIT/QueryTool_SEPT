@@ -1,0 +1,75 @@
+SELECT purplanm.fact_odr_no,
+       ODRM.L_CFM_DATE LPD_delivery,
+       purplanm.purplan_seq Item,
+       a.KIND_TYPE_DESC Purchase_Policy,
+       purplanm.mat_no,
+       purplanm.pld_req_qty Demand,
+       purplanm.nonpur_qty Stock_Q,
+       purplanm.pured_qty Has_ordered_quantity,
+       purplanm.insped_qty receipt_amount_already,
+       purplanm.billed_qty,
+       decode(purplanm.pur_policy,'1',
+        (MDMIS.fun_sqltostr('select max(bb.ans_etd_date)
+                        from MDMIS.bb_purdd bb
+                       where (bb.fact_no ,bb.purno_no,BB.MATM_NO) in (select b.fact_no,b.purno_no,A.mat_no 
+                                               from MDMIS.purplanm a, MDMIS.purnodrm b
+                                              where a.fact_no = b.fact_no
+                                                and a.fact_odr_no = b.fact_odr_no
+                        and a.fact_no = :V1
+                        and a.mat_no =:V2
+                        and nvl(a.fact_odr_no, b.fact_odr_no)=:V3
+                        and a.purplan_no=:V4)',
+                    '',
+                    4,
+                    purplanm.Fact_No,
+                    purplanm.Mat_No,
+                    purplanm.Fact_Odr_No,
+                    purplanm.purplan_no)),
+        (MDMIS.fun_sqltostr('SELECT MAX(ANS_ETD_DATE)
+                     FROM
+                       (SELECT A.ANS_ETD_DATE
+                       FROM MDMIS.purdd a,
+                         fact_purdd b
+                       WHERE a.fact_no  = b.fact_no
+                       AND a.purd_no    = b.purd_no
+                       AND a.purd_seq   = b.purd_seq  
+                       AND a.fact_no    = :V1
+                       AND a.mat_no     =:V2
+                       AND b.fact_odr_no=:V3
+                       AND b.purplan_no =:V4
+                       AND b.purplan_seq=:V5
+                       UNION ALL
+                       SELECT A.ANS_ETD_DATE
+                       FROM MDMIS.purdd a
+                       WHERE a.fact_no  = :V1
+                       AND a.mat_no     =:V2
+                       AND a.fact_odr_no=:V3
+                       AND a.purplan_no =:V4
+                       AND a.purplan_seq=:V5
+                       )',
+                    '',
+                    10,
+                    purplanm.Fact_No,
+                    purplanm.Mat_No,
+                    purplanm.Fact_Odr_No,
+                    purplanm.purplan_no,
+                    purplanm.purplan_seq,
+                    purplanm.Fact_No,
+                    purplanm.Mat_No,
+                    purplanm.Fact_Odr_No,
+                    purplanm.purplan_no,
+                    purplanm.purplan_seq))) ANS_ETD_DATE,
+       nvl(matm.mat_color,'') || matm.mat_name mat_name,
+       matm.matm_unit
+  FROM MDMIS.purplanm, MDMIS.matm, MDMIS.odrm,
+       (select KIND_TYPE, KIND_TYPE_DESC from MDMIS.kindd where kind_no = 'A7') a
+ WHERE (purplanm.fact_no = matm.fact_no(+))
+   and (purplanm.mat_no = matm.mat_no(+))
+   and (purplanm.same_part_no is null)
+   and purplanm.fact_no = odrm.fact_no
+   and purplanm.fact_odr_no = odrm.fact_odr_no
+   and purplanm.pur_policy = a.KIND_TYPE(+)
+   AND (PURPLANM.FACT_NO = 'B0VQ')
+   --and purplanm.mat_no = 'L0201030010000'
+   AND (PURPLANM.FACT_ODR_NO in (txtValue))
+order by purplanm.fact_odr_no,purplanm.purplan_seq

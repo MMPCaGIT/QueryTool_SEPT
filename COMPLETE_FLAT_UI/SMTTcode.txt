@@ -1,0 +1,336 @@
+using Microsoft.Office.Interop.Excel;
+using System;
+using System.Windows.Forms;
+
+namespace COMPLETE_FLAT_UI
+{
+    public partial class SMTT : Form
+    {
+        public SMTT()
+        {
+            InitializeComponent();
+        }
+        String impPath = "";
+        Boolean dataGen = false;
+        PreviewDataList Vform = new PreviewDataList();
+        DataQueries QForm;
+        Action<object> abrirFormEnPanel;
+        internal void SubFormToShow(Action<object> abrirFormEnPanel)
+        {
+            this.abrirFormEnPanel = abrirFormEnPanel;
+        }
+        internal void DataQueriesProperties(DataQueries QForm)
+        {
+            this.QForm = QForm;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+            browseXLSX.InitialDirectory = @"D:\";
+            browseXLSX.Title = "Browse xlsx Files";
+            browseXLSX.CheckFileExists = true;
+            browseXLSX.CheckPathExists = true;
+            browseXLSX.DefaultExt = "";
+            browseXLSX.Filter = "xlsx files (*.xlsx)|*.xlsx";
+            browseXLSX.FilterIndex = 2;
+            browseXLSX.RestoreDirectory = true;
+            browseXLSX.ShowDialog();
+            impPath = browseXLSX.FileName;
+
+        }
+        private String Opts()
+        {
+            String UpdString = "";
+            if (SmttCombo.Text.Equals("By CRD"))
+            {
+                UpdString = "ByCRD.txt";
+            }
+            else if(SmttCombo.Text.Equals("By PODD"))
+            {
+                UpdString = "ByPODD.txt";
+            }
+            else
+            {
+                UpdString = "";
+            }
+           
+            return UpdString;
+        }
+        private void DataGen_Click(object sender, EventArgs e)
+        {
+            if (SmttCombo.Text.Equals("By PODD") || SmttCombo.Text.Equals("By CRD"))
+            {
+                startSmmt();
+            }
+            else
+            {
+                MessageBox.Show("Please chose query type");
+            }
+        }
+
+        private void startSmmt()
+        {
+            DateTime selectedDate1 = dateTimePicker1.Value;
+            DateTime selectedDate2 = dateTimePicker2.Value;
+            Boolean bth = false;
+            String rValue = "";
+            String txtValue = "";
+            
+            PreviewDataList Vform = new PreviewDataList();
+            rValue = Opts();
+            Vform.DataQueriesProperties(QForm);
+            Vform.SubFormToShow(abrirFormEnPanel);
+            Vform.QueryExport(rValue, selectedDate1, selectedDate2, txtValue, bth);
+            abrirFormEnPanel(Vform);
+
+        }
+
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+
+            string rootDir = System.IO.Path.Combine(Environment.CurrentDirectory, @"data\");
+            Worksheet destworkSheet;
+            Workbook workbookDest;
+            Microsoft.Office.Interop.Excel.Application excelapp;
+            excelapp = new Microsoft.Office.Interop.Excel.Application();
+            excelapp.Visible = false;
+            excelapp.DisplayAlerts = false;
+            excelapp.Workbooks.Add();
+
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            //
+            string pathDesit = System.IO.Path.Combine(rootDir, "SMTT_TEST3.xlsx");
+            workbookDest = excelapp.Workbooks.Open(pathDesit);
+            destworkSheet = workbookDest.Sheets.get_Item(1);
+            //
+            var blankData = destworkSheet.Cells[2, 1].value;
+
+            if (blankData is null)
+            {
+                MessageBox.Show("NO data to save !! \nPlease generate data first!");
+            }
+            else
+            {
+                saveFileDialog.InitialDirectory = "C:";
+                saveFileDialog.Title = "Export";
+                saveFileDialog.FileName = "";
+                saveFileDialog.Filter = "excel|*.xlsx|All File|*.*";
+                if (saveFileDialog.ShowDialog() != DialogResult.Cancel)
+                {
+                    try
+                    {
+                        workbookDest.SaveAs(saveFileDialog.FileName, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing,
+                            Type.Missing, Type.Missing);
+                        MessageBox.Show("File Sucessfully Saved!");
+
+                        workbookDest.SaveAs(rootDir + "destination.xlsx", Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing,
+                            Type.Missing, Type.Missing);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+            }
+            workbookDest.Close();
+            excelapp.Quit();
+            excelapp = null;
+            workbookDest = null;
+        }
+        
+        private void BtnCerrar_Click(object sender, EventArgs e)
+        {
+            DataGen.Text = "Generate";
+            QForm.SubFormToShow(abrirFormEnPanel);
+            this.Close();
+            abrirFormEnPanel(QForm);
+        }
+
+        private void combineBtn_Click(object sender, EventArgs e)
+        {
+            if (impPath.Equals("") || impPath.Equals(".xlsx"))
+            {
+                MessageBox.Show("Please Import data first !");
+            }
+            //else if (dataGen == false)
+            //{
+            
+            //    MessageBox.Show("Please Generate data first !");
+            //}
+            else
+            {
+                combineProcess();
+                
+            }             
+        }
+
+        private void combineProcess()
+        {
+            Prograssnoti progressBar = new Prograssnoti();
+            String srcValue = "";
+            String checkRow = "";
+            int checkRowCount = 1;
+            int rowCont = 1;
+            int combIndex = 1;
+            Workbook genBook;
+            Workbook browBook;
+            Worksheet genSheet;
+            Worksheet browSheet;
+            Workbook comBook;
+            Worksheet conSheet;
+            Microsoft.Office.Interop.Excel.Application excelapp;
+            excelapp = new Microsoft.Office.Interop.Excel.Application();
+            excelapp.Visible = false;
+            excelapp.DisplayAlerts = false;
+            excelapp.Workbooks.Add();
+            string a = browseXLSX.FileName;
+            string rootDir = System.IO.Path.Combine(Environment.CurrentDirectory, @"data\");
+            string SMTT1 = System.IO.Path.Combine(rootDir, "destination.xlsx");
+            string SMTT2 = System.IO.Path.Combine(impPath);
+            string SMTT3 = System.IO.Path.Combine(rootDir, "SMTT_COL_DATA.xlsx");
+            genBook = excelapp.Workbooks.Open(SMTT1);
+            genSheet = genBook.Sheets.get_Item(1);
+            browBook = excelapp.Workbooks.Open(SMTT2);
+            browSheet = browBook.Sheets.get_Item(1);
+            comBook = excelapp.Workbooks.Open(SMTT3);
+            conSheet = comBook.Sheets.get_Item(1);
+
+            int lastRow = genSheet.Cells.SpecialCells(XlCellType.xlCellTypeLastCell, Type.Missing).Row;
+            progressBar.PrograssMax(lastRow);
+
+            String checkGem = (String)genSheet.Cells[1, 1].Value;
+            String checkBro = (String)browSheet.Cells[1, 1].Value;
+
+            //check brows datat and gen data are null or not
+            if (checkGem != null)
+            {
+                while (checkRow != null)
+                {
+                    srcValue = "";
+                rowCont = 1;
+                checkRowCount++;
+                Microsoft.Office.Interop.Excel.Range colRange = genSheet.Columns["A"];
+                while (srcValue != null)
+                {
+                    rowCont++;
+                    combIndex++;
+                    String searchRow = rowCont.ToString();
+                    String combRow = combIndex.ToString();
+                    String GenData1 = (String)genSheet.Cells[rowCont, 1].Value;
+                    String GenData2 = (String)genSheet.Cells[rowCont, 2].Value;
+                    String GenData3 = (String)genSheet.Cells[rowCont, 3].Value;
+                    String BrowData1 = (String)browSheet.Cells[checkRowCount, 1].Value;
+                    String BrowData2 = (String)browSheet.Cells[checkRowCount, 2].Value;
+                    String BrowData3 = (String)browSheet.Cells[checkRowCount, 3].Value;
+
+
+
+                    if (GenData1.Equals(BrowData1) && GenData2.Equals(BrowData2) && GenData3.Equals(BrowData3))
+                    {
+                        Range genData = genSheet.Range["A" + searchRow + ":V" + searchRow + 1];
+                        Range conData1 = conSheet.Range["A" + combRow + ":V" + combRow];
+                        Range broData = browSheet.Range["D" + searchRow + ":K" + searchRow];
+                        Range conData2 = conSheet.Range["W" + combRow + ":AD" + combRow];
+
+                        genData.Copy(conData1);
+                        broData.Copy(conData2);
+
+                        }
+                    else
+                    {
+                        combIndex--;
+                    }
+                    srcValue = (String)genSheet.Cells[rowCont + 1, 1].Value;
+                }
+                    checkRow = (String)browSheet.Cells[checkRowCount + 1, 1].Value;
+                    progressBar.Show();
+                    progressBar.ShowPrg();
+
+                }
+            MessageBox.Show("Sucessfully Combine");
+                progressBar.PrograssFull(lastRow);
+                progressBar.Close();
+            }
+            else if (checkGem == null)
+            {
+                MessageBox.Show("Please check generate data");
+            }
+            else if (checkBro == null)
+            {
+                MessageBox.Show("Please check Upload data");
+            }
+
+            comBook.SaveAs(rootDir + "SMTT_TEST3.xlsx", Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing,
+                        Type.Missing, Type.Missing);
+            genBook.Close();
+            browBook.Close();
+            comBook.Close();
+            excelapp.Quit();
+            genSheet = null;
+            browSheet = null;
+            conSheet = null;
+
+            //check total loop cout
+            int abb = checkRowCount + rowCont;
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+                string rootDir = System.IO.Path.Combine(Environment.CurrentDirectory, @"data\");
+                Worksheet destworkSheet;
+                Workbook workbookDest;
+                Microsoft.Office.Interop.Excel.Application excelapp;
+                excelapp = new Microsoft.Office.Interop.Excel.Application();
+                excelapp.Visible = false;
+                excelapp.DisplayAlerts = false;
+                excelapp.Workbooks.Add();
+
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                //
+                string pathDesit = System.IO.Path.Combine(rootDir, "destination.xlsx");
+                workbookDest = excelapp.Workbooks.Open(pathDesit);
+                destworkSheet = workbookDest.Sheets.get_Item(1);
+                //
+                var blankData = destworkSheet.Cells[2, 1].value;
+
+                if (blankData is null)
+                {
+                    MessageBox.Show("NO data to save !! \nPlease generate data first!");
+                }
+                else
+                {
+                    saveFileDialog.InitialDirectory = "C:";
+                    saveFileDialog.Title = "Export";
+                    saveFileDialog.FileName = "";
+                    saveFileDialog.Filter = "excel|*.xlsx|All File|*.*";
+                    if (saveFileDialog.ShowDialog() != DialogResult.Cancel)
+                    {
+                        try
+                        {
+                            workbookDest.SaveAs(saveFileDialog.FileName, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing,
+                                Type.Missing, Type.Missing);
+                            MessageBox.Show("File Sucessfully Saved!");
+
+                            workbookDest.SaveAs(rootDir + "destination.xlsx", Type.Missing, Type.Missing, Type.Missing, Type.Missing, Type.Missing, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange, Type.Missing, Type.Missing, Type.Missing,
+                                Type.Missing, Type.Missing);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
+                    }
+                }
+                workbookDest.Close();
+                excelapp.Quit();
+                excelapp = null;
+                workbookDest = null;
+        }
+    }
+}

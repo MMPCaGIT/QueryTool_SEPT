@@ -1,0 +1,14 @@
+SELECT distinct aa.RESURCE_ORDER,bb.impur_no,bb.aga_letter_no,aa.mat_no,aa.auto_dt,aa.auto_qty,aa.check_qty 
+FROM (SELECT RESURCE_ORDER,MAT_NO,AUTO_DT,AUTO_QTY,CHECK_QTY,PURD_QTY
+FROM MDMIS.MAT_AUTO_STOCKM) aa,(select a.fact_odr_no,a.mat_no,c.impur_no,c.aga_letter_no--,e.vend_f_name
+from mdmis.purplanm a, mdmis.fact_purdd b, mdmis.impurd c, mdmis.impurm d,mdmis.vendorm e
+where a.purplan_no = b.purplan_no(+)
+and a.purplan_seq = b.purplan_seq(+)
+and b.purd_no = c.purd_no(+)
+and c.impur_no = d.impur_no(+)
+and d.vend_no = e.vend_no(+)
+and a.same_part_no is null
+) bb
+WHERE aa.RESURCE_ORDER = bb.fact_odr_no(+)
+and aa.mat_no = bb.mat_no(+)
+and aa.AUTO_DT like 'txtValue'

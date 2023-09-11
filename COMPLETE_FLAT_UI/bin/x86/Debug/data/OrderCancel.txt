@@ -1,0 +1,2 @@
+
+select * from ( select fact_odr_no,style_no,ARTIC_NO,REV_ODR_DATE,CANCEL_DATE,odr_qty from mdmis. odrm where fact_no ='B0VQ' and CANCEL_DATE between 'frDate' and 'toDate' ) sub1 order by 5 asc

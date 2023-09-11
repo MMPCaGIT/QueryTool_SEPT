@@ -1,0 +1,25 @@
+select odr_no, cast(Line_no as varchar(400)) as Line_no,ARTIC_NO1,Country,L_CFM_DATE, L_Y_M from (
+select A.odr_no, A.Line_no,B.ARTIC_NO1,B.Country,B.L_CFM_DATE, B.L_Y_M
+from 
+(SELECT a.odr_no ,  
+      wm_concat(b.sec_no) as Line_no
+from mdsg.fi_m a, mdsg.fi_insp b
+where a.FI_NO=b.FI_NO
+and a.fa_number=b.fa_number
+--and a.odr_no='AV2106045'
+GROUP BY a.odr_no) A,
+
+(select distinct(b.odr_no),a.ARTIC_NO1, a.mdd as Country,a.L_CFM_DATE, substr(a.L_CFM_DATE,1,6) as L_Y_M
+from mdsg.odrm a, mdsg.fi_m b
+where 
+--a.ARTIC_NO1='FY3296'
+--a.odr_no='AV2005885' 
+--and a.mdd='GERMANY'
+--and a.L_CFM_DATE like '202106%'
+a.L_CFM_DATE >= '20200101'
+and substr(a.odr_no,1,9)=substr(b.odr_no,1,9)
+and a.FA_NUMBER=b.FA_NUMBER
+
+) B
+
+where A.odr_no=B.odr_no)

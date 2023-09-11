@@ -1,0 +1,6 @@
+select a.vend_no,c.vend_f_name,a.IN_ID, a.CONTAINER_NO, b.IN_SEQ, b.mat_no,b.purd_qty,arrive_QTY,goods_WGT EDI_WGT,a.TRAN_DATE,b.close_no,a.ARRIVE_DATE
+from mdmis.IMP_ARRIVEM a, MDMIS.IMP_ARRIVED b ,mdmis.vendorm c
+where a.IN_ID=b.IN_ID  
+and a.vend_no=c.vend_no
+and a.ARRIVE_DATE between 'frDate' and 'toDate'
+and b.close_no is not null

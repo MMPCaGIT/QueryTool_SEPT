@@ -1,0 +1,1 @@
+select * from mdmis.odrm where fact_odr_no like'AV202%'

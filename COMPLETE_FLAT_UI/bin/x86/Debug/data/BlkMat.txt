@@ -1,0 +1,21 @@
+select a.style_no, b.artic_no, SUBSTR(b.bom_stcfm_date, 1, 8)  BOM_RECEIVED_DATE, b.model_name,b.gender,C.GSCM_MAT_NO MLM_ID,
+a.mat_no,'' Material_Remark,b.union_goods_no, b.goods_seq, a.part_no, c.mat_name material_description, a.same_part_no,
+c.matm_unit, c.size_remark
+from mdmis.bomm a, mdmis.stylem b, mdmis.matm c
+where a.style_no = b.style_no
+and a.mat_no = c.mat_no
+and SUBSTR(b.bom_stcfm_date, 1, 8) between 'frDate' and 'toDate'
+and a.mat_no in
+(select b_mat_no from mdmis.bw_matm)
+union all
+select a.style_no, b.artic_no, SUBSTR(b.bom_stcfm_date, 1, 8)  BOM_RECEIVED_DATE, b.model_name,b.gender,d.GSCM_MAT_NO MLM_ID,
+c.sub_mat_no,'Sub Materail' Material_Remark,b.union_goods_no, b.goods_seq, a.part_no, d.mat_name material_description, a.same_part_no,
+d.matm_unit, d.size_remark
+from mdmis.bomm a, mdmis.stylem b, mdmis.matbom c, mdmis.matm d
+where a.style_no = b.style_no
+and a.mat_no = c.main_mat_no
+and c.sub_mat_no = d.mat_no
+and SUBSTR(b.bom_stcfm_date, 1, 8) between 'frDate' and 'toDate'
+and c.sub_mat_no in
+(select b_mat_no from mdmis.bw_matm)
+order by style_no,mat_no

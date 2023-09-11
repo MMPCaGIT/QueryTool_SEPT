@@ -1,0 +1,17 @@
+SELECT FACT_ODR_NO
+--,REPL_NO,
+,MAT_NO
+,MAT_SIZE
+,REPL_QTY 
+from(
+select a.fact_odr_no, wm_concat(distinct(a.ADDPRD_NO)) Repl_No,c.mat_no,c.mat_size
+,sum(c.ADDPRDMAT_QTY) Repl_Qty
+from mdmis.addprdm a, mdmis.addprdd b,mdmis.addprdmat c
+where a.ADDPRD_NO=b.ADDPRD_NO
+and a.fact_no=b.fact_no
+and c.ADDPRD_NO=b.ADDPRD_NO
+and c.fact_no=b.fact_no
+and a.ADDPRD_DATE between '20220517' and '20220517'
+group by a.fact_odr_no,c.mat_no,c.mat_size)
+
+test

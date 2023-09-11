@@ -1,0 +1,36 @@
+select odr_no, cast(Line_no as varchar(400)) as Line_no,ARTIC_NO as ARTIC_NO1,decode(Country,'UNITED KINGDOM','U.K. LTD.',
+'UNITED KINGD','U.K. LTD.',
+'RUSSIAN FEDE','RUSSIAN FEDERATION',
+--'GREECE','GREECE (HELLAS)',
+--'INDONESIA','INDONESIA (PT. TRIGARIS)', 
+'U S A','AMERICA',
+'U S','AMERICA',
+'UNITED ARAB EMIRATES','UNITED ARAB',
+'KOREA, REPUBLIC','SOUTH KOREA',
+'KOREA, REPUB','SOUTH KOREA',
+'HONG KONG','HONGKONG LTD',
+'HONG KONG','HONGKONG LTD',
+'Western Euro','Western Europe',
+
+Country) as Country,L_CFM_DATE, L_Y_M 
+from(
+select A.odr_no, A.Line_no,B.ARTIC_NO,B.Country,B.L_CFM_DATE, B.L_Y_M
+from 
+(SELECT a.odr_no ,
+wm_concat(distinct(substr(trim(c.SEC_NAME),1,4))) as Line_no
+from mdsg.fi_m a, mdsg.fi_insp b, mdsg.sec c
+where a.FI_NO=b.FI_NO
+and a.fa_number=b.fa_number
+and b.SEC_NO=c.SEC_NO
+GROUP BY a.odr_no
+) A,
+
+(select distinct(b.odr_no),a.ARTIC_NO, a.ODR_DIST_COUNTRY as Country,a.L_CFM_DATE, substr(a.L_CFM_DATE,1,6) as L_Y_M
+from mdsg.vie_odrm_all a, mdsg.fi_m b
+where a.L_CFM_DATE>='20200101'
+--a.artic_no = 'EH2833'
+--a.ODR_DIST_COUNTRY = 'GERMANY'
+and (a.FACT_ODR_NO = b.odr_no or a.n_fact_odr_no = b.odr_no)
+) B
+
+where A.odr_no=B.odr_no)

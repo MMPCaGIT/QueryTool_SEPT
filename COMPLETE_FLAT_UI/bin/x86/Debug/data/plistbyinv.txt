@@ -1,0 +1,19 @@
+select rownum,invoice_no,fact_odr_no,odr_qty,ODR_UNIT_MEMO,ODR_QTY*ODR_UNIT_MEMO CMP_AMT,fob_price,fob_amt,FOC from (
+ select a.invoice_no,a.fact_odr_no,a.ODR_UNIT_MEMO,a.odr_qty,case when a.odr_dist_country='CHINA' or a.odr_dist_country='INDONESIA' 
+ or a.odr_dist_country='MALAYSIA' or a.odr_dist_country='PHILIPPINES' or a.odr_dist_country='SINGAPORE' 
+ or a.odr_dist_country='THAILAND' or a.odr_dist_country='BRUNEI' or a.odr_dist_country='VIETNAM' 
+ or a.odr_dist_country='LAOS' or a.odr_dist_country='BURMA' or a.odr_dist_country='KAMPUCHEA' then 
+ least(b.mat_price + b.mat_price / 0.5 * 0.05 + b.out_price,to_number(a.fob_odr_unit_memo)) 
+ else to_number(a.fob_odr_unit_memo) end fob_price,
+ round(case when a.odr_dist_country='CHINA' or a.odr_dist_country='INDONESIA' 
+ or a.odr_dist_country='MALAYSIA' or a.odr_dist_country='PHILIPPINES' or a.odr_dist_country='SINGAPORE' 
+ or a.odr_dist_country='THAILAND' or a.odr_dist_country='BRUNEI' or a.odr_dist_country='VIETNAM' 
+ or a.odr_dist_country='LAOS' or a.odr_dist_country='BURMA' or a.odr_dist_country='KAMPUCHEA' then 
+ least(b.mat_price + b.mat_price / 0.5 * 0.05 + b.out_price,to_number(a.fob_odr_unit_memo)) 
+ else to_number(a.fob_odr_unit_memo) end * odr_qty,2) fob_amt,case when instr(upper(CONTRACT_ID),'FOC')>0 THEN '(FOC)' END FOC 
+ from mdmis.vie_odrm_fob a ,
+ (select  * from (
+ select fact_no,artic_no,nvl(out_price,0) out_price,mat_price,row_number() over (partition by fact_no,artic_no order by effect_date desc) h from (
+ select * from mdmis.stylepricem2cus where fact_no = 'B0VQ'  and mat_price>0) ) where h=1 ) b
+ where a.fact_no=b.fact_no(+) and a.artic_no=b.artic_no(+) and a.fact_no = 'B0VQ' and a.invoice_no in (txtValue)
+ ORDER BY FACT_ODR_NO )

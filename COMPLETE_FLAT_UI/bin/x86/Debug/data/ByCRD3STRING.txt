@@ -1,0 +1,99 @@
+select distinct a.fact_odr_no "Fty Order No",a.mat_no "Material Code",b.impur_no "Purchase Order No", a.po_no "PO No", a.artic_no "Article No",a.model_name "Model Name",a.crd "CRD Date",a.podd,a.lpd "Prdouction Finish Date",a.ship_date "Export Date",a.odr_qty "Order Qty",a.part_no "Part No",
+a.GSCM_MAT_NO "MLMID",a.mat_name "Material Name",a.matm_unit "Unit",a.mat_size,a.emc "Material Demand Qty", a.leku "Liku Qty",
+b.purd_qty "Material Purchase Qty",b.vend_no "Supplier No",to_char(c.addprd_no) "Replace No",c.addprdmat_qty "Replace material Qty"
+from
+(select om.fact_odr_no,om.po_no,om.artic_no,sm.model_name,om.ship_date,om.cust_req_date CRD,om.POSOD_DATE PODD,om.lpd_date LPD,om.odr_qty,pm.purplan_no, pm.purplan_seq,
+pm.part_no,pm.mat_no,mm.GSCM_MAT_NO,mm.mat_name,mm.MATM_UNIT,pd.PUR_MAT_SIZE Mat_Size,pd.pld_req_qty EMC,pd.PURED_QTY purd_qty, pd.nonpur_qty leku
+from mdmis.odrm om,mdmis.purplanm pm, mdmis.purpland pd, MDMIS.stylem sm, mdmis.matm mm
+where om.fact_odr_no = pm.fact_odr_no
+and om.style_no = sm.style_no
+and pm.purplan_no = pd.purplan_no(+)
+and pm.purplan_seq = pd.purplan_seq(+)
+and pm.mat_no = mm.mat_no
+and pm.pur_policy <> '3'
+and mm.size_remark <> '1'
+and pm.mat_no not like 'I%' and pm.mat_no not like 'Q%'
+and pm.same_part_no is null
+and pm.mat_no= 'brsCol2'
+and om.fact_odr_no = 'brsCol1'
+--and om.cust_req_date between '20220414' and '20220430'
+--and om.POSOD_DATE between '20220414' and '20220513'
+order by pm.part_no) a,
+(select fdd.fact_odr_no,im.impur_no,im.vend_no,imd.purd_no,imd.impru_seq,imd.mat_no,ims.MAT_SIZE,fdd.PURD_QTY, fdd.purplan_no, fdd.purplan_seq
+from mdmis.impurm im, mdmis.impurd imd,MDMIS.impurds ims, mdmis.fact_purdd fdd
+where im.IMPUR_NO = imd.IMPUR_NO
+and imd.IMPUR_NO = ims.IMPUR_NO(+)
+and imd.IMPRU_SEQ = ims.IMPRU_SEQ(+)
+and imd.purd_no = fdd.purd_no
+and imd.IMPUR_NO = 'brsCol3'
+and fdd.fact_odr_no = 'brsCol1'
+and imd.mat_no = 'brsCol2'
+) b,
+(select wm_concat(addprd_no) addprd_no,fact_odr_no,mat_no,part_no,size_no,sum(addprdmat_qty) addprdmat_qty from (
+select distinct aprm.addprd_no,aprm.fact_odr_no,apmat.mat_no,apdd.part_no, apdd.size_no,apmat.ADDPRDMAT_QTY
+from mdmis.addprdm aprm, mdmis.addprdmat apmat, mdmis.addprdd apdd
+where aprm.addprd_no = apmat.addprd_no
+and aprm.addprd_no = apdd.addprd_no
+and apmat.mat_seq = apdd.ADDPRD_SEQ
+and apmat.mat_no = 'brsCol2'
+and aprm.fact_odr_no = 'brsCol1')
+group by fact_odr_no,mat_no,part_no,size_no
+) c
+where
+ a.mat_no = 'brsCol2'
+ and a.fact_odr_no = 'brsCol1'
+and a.fact_odr_no = b.fact_odr_no(+)
+and a.mat_no = b.mat_no(+)
+and a.purplan_no = b.purplan_no(+)
+and a.purplan_seq = b.purplan_seq(+)
+and a.mat_size = b.MAT_SIZE(+)
+and a.fact_odr_no = c.fact_odr_no(+)
+and a.mat_no = c.mat_no(+)
+and a.part_no = c.part_no(+)
+and a.mat_size = c.size_no(+)
+union
+select distinct a.fact_odr_no,a.mat_no,b.impur_no,a.po_no, a.artic_no,a.model_name,a.crd,a.podd,a.lpd,a.ship_date,a.odr_qty,a.part_no,
+a.GSCM_MAT_NO,a.mat_name,a.matm_unit,a.mat_size,a.emc, a.leku,
+b.purd_qty,b.vend_no,to_char(c.addprd_no),c.addprdmat_qty
+from
+(select om.fact_odr_no,om.po_no,om.artic_no,sm.model_name,om.ship_date,om.cust_req_date CRD,om.POSOD_DATE PODD,om.lpd_date LPD,om.odr_qty,pm.purplan_no, pm.purplan_seq,
+pm.part_no,pm.mat_no,mm.GSCM_MAT_NO,mm.mat_name,mm.MATM_UNIT,'' Mat_Size,pm.pld_req_qty EMC,pm.PURED_QTY purd_qty, pm.nonpur_qty leku
+from mdmis.odrm om,mdmis.purplanm pm, MDMIS.stylem sm, mdmis.matm mm
+where om.fact_odr_no = pm.fact_odr_no
+and om.style_no = sm.style_no
+and pm.mat_no = mm.mat_no
+and pm.pur_policy != '3'
+and mm.size_remark = '1'
+and pm.mat_no not like 'I%' and pm.mat_no not like 'Q%'
+and pm.same_part_no is null
+and pm.mat_no= 'brsCol2'
+and om.fact_odr_no = 'brsCol1'
+--and om.cust_req_date between '20220414' and '20220513'
+--and om.POSOD_DATE between '20220414' and '20220513'
+) a,
+(select fdd.fact_odr_no,im.impur_no,im.vend_no,imd.purd_no,imd.impru_seq,imd.mat_no,ims.MAT_SIZE,fdd.PURD_QTY, fdd.purplan_no, fdd.purplan_seq
+from mdmis.impurm im, mdmis.impurd imd,MDMIS.impurds ims, mdmis.fact_purdd fdd
+where im.IMPUR_NO = imd.IMPUR_NO
+and imd.IMPUR_NO = ims.IMPUR_NO(+)
+and imd.IMPRU_SEQ = ims.IMPRU_SEQ(+)
+and imd.purd_no = fdd.purd_no
+and imd.IMPUR_NO = 'brsCol3'
+and imd.mat_no = 'brsCol2'
+and fdd.fact_odr_no= 'brsCol1') b,
+(select fact_odr_no,mat_no,part_no,sum(addprdmat_qty) addprdmat_qty,wm_concat(addprd_no) addprd_no from (
+select distinct aprm.addprd_no,aprm.fact_odr_no,apmat.mat_no,apdd.part_no,apmat.ADDPRDMAT_QTY
+from mdmis.addprdm aprm, mdmis.addprdmat apmat, mdmis.addprdd apdd
+where aprm.addprd_no = apmat.addprd_no
+and aprm.addprd_no = apdd.addprd_no
+and apmat.mat_no = 'brsCol2'
+and aprm.fact_odr_no = 'brsCol1')
+group by fact_odr_no,mat_no,part_no
+) c
+where a.fact_odr_no = b.fact_odr_no(+)
+and a.mat_no = b.mat_no(+)
+and a.purplan_no = b.purplan_no(+)
+and a.purplan_seq = b.purplan_seq(+)
+--and a.mat_size = b.MAT_SIZE(+)
+and a.fact_odr_no = c.fact_odr_no(+)
+and a.mat_no = c.mat_no(+)
+and a.part_no = c.part_no(+)

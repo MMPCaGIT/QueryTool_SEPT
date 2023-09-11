@@ -1,0 +1,14 @@
+select nvl(vm.vend_f_name,vm.vend_name) VENODR, im.aga_letter_no "P/O NO.", im.impur_no POID,imd.impru_seq "NO",
+case mm.size_remark when '2' then (select distinct size_tno from mdmis.sizeindex where sizeindex.size_no = imds.mat_size)
+when '3' then (select distinct matsize_desc from mdmis.matsize where matsize.mat_size = imds.mat_size and matsize.mat_no = imd.mat_no) end "Size",
+ mm.matm_eng_name ITEM, '' 規格, '' COLOR, imd.IMPUR_QTY+imd.OVERPURD_QTY "Q'TY", --imd.pi_qty "Q'TY",
+imd.pi_unit UNIT,'' "PKG NO.",'' "PKG Q'TY" ,'' "PACK",'' "NET",'' "GROSS",'' "CONTAINER NO",'' "REG. NO",'' "CBM",
+imd.mat_no "Mat No", '' "FOC"
+from mdmis.impurm im,mdmis.impurd imd,mdmis.impurds imds,mdmis.vendorm vm,(select mat_no,size_remark, matm_eng_name from mdmis.matm) mm
+where im.impur_no = imd.impur_no
+and im.vend_no = vm.vend_no
+and imd.impur_no = imds.impur_no(+)
+and imd.impru_seq = imds.impru_seq(+)
+and mm.mat_no = imd.mat_no
+and im.impur_no in (txtValue)
+order by im.impur_no,imd.impru_seq

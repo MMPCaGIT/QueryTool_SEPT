@@ -1,0 +1,10 @@
+select distinct(b.FACT_ODR_NO),d.sfc_no as Dispatch_Form_No,d.stk_sfc_no as Preparation_Single_No,d.part_no,d.mat_no ,m.MAT_NAME,
+d.SPECREQ_QTY as Issued_Amount,D.PRINT_MK,b.lpd_date as LPD_Date,b.SHIP_DATE
+from  mdmis.VIE_ODRM_ALL b,mdmis.odrsfcd d, mdmis.matm m
+where d.fact_no='B0VQ'
+and b.ship_date is not null
+and m.mat_no=d.mat_no 
+and d.SPECREQ_QTY >0 
+and (NVL(d.SFCUSE_QTY,0) +NVL(d.REPLREQ_QTY,0))=0  
+and b.N_FACT_ODR_NO = d.fact_odr_no
+and b.ship_date between 'frDate' and 'toDate'

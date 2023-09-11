@@ -1,0 +1,104 @@
+﻿select mat_no 材料代號,mat_name 材料名稱規格,matm_unit 單位,stock_qty 廠內存量, pld_req_qty 訂單需求量,voua_qty 訂單已領用量,overflow_qty 溢出品數量,not_yet 未訂購用量,ontheway 在途量,feed_qty 補料未領料量,zaoku 造庫量,
+((stock_qty+ontheway-feed_qty)-(pld_req_qty-voua_qty)) 訂單外的庫存量,
+CASE WHEN ((stock_qty+ontheway-feed_qty)-(pld_req_qty-voua_qty)) < 0
+THEN (((stock_qty+ontheway-feed_qty)-(pld_req_qty-voua_qty))+zaoku)
+ELSE (((stock_qty+ontheway-feed_qty)-(pld_req_qty-voua_qty))-zaoku) END 造庫差異
+from (
+select mm.mat_no,mm.mat_name,mm.matm_unit,nvl(e.stock_qty,0) stock_qty,nvl(a.pld_req_qty,0) pld_req_qty,h.overflow_qty,nvl(b.voua_qty,0) voua_qty,
+nvl(a.not_yet,0) not_yet,
+case when mm.pur_policy <> '1' then nvl(c.ttal,0) else nvl(g.ontheway_ttal,0) end ontheway,
+nvl(d.feed_qty,0) feed_qty,nvl(F.STK_QTY,0) zaoku
+from (select distinct a.mat_no,a.mat_name,a.pur_policy,a.matm_unit
+from mdmis.matm a
+where a.mat_no not in (select sub_mat_no from mdmis.matbom)
+and a.stop_date is null
+and a.Size_Remark ='1') mm,(SELECT DISTINCT A.mat_no, sum(A.PLD_REQ_QTY) pld_req_qty,sum(a.not_yet) not_yet
+--case when sum(A.PLD_REQ_QTY-A.NONPUR_QTY-A.PURED_QTY) < 0 then 0 else sum(A.PLD_REQ_QTY-A.NONPUR_QTY-A.PURED_QTY) end not_yet
+    FROM (select fact_odr_no,mat_no,same_part_no, pld_req_qty,nonpur_qty,pured_qty, 
+case when PLD_REQ_QTY-NONPUR_QTY-PURED_QTY <0 then 0 else PLD_REQ_QTY-NONPUR_QTY-PURED_QTY end not_yet from mdmis.purplanm) A, MDMIS.ODRM B
+    WHERE A.FACT_ODR_NO = B.FACT_ODR_NO
+    AND B.EXGO_MK <> 'Y'
+    and b.cancel_date is null
+    and B.Act_Ins_Date is null
+    and A.Same_Part_No is null
+    AND B.ODR_TYPE not in ('1','I')
+    group by a.mat_no) a,
+    (select mat_no, sum(sfc_qty) voua_qty from 
+        (select T1.MAT_NO,sum(NVL(T1.SFCUSE_QTY,0) + NVL(t1.replreq_qty,0)) sfc_qty
+         FROM mdmis.ODRSFCD T1, mdmis.VIE_ODRM_ALL T2 
+        WHERE T2.FACT_NO = T1.FACT_NO AND T2.N_FACT_ODR_NO = T1.FACT_ODR_NO 
+        AND NVL(T2.EXGO_MK,'N') = 'N' 
+        and t2.CANCEL_DATE IS NULL 
+        AND T2.ODR_TYPE NOT IN ('I','1') 
+        and T2.Act_Ins_Date is null
+        AND (T1.SFCUSE_QTY> 0 OR T1.REPLREQ_QTY > 0)
+        GROUP BY T1.MAT_NO
+      )
+      group by mat_no) b,
+    (select mat_no,sum(tot) ttal from (select mat_no,(nvl(purd_qty,0)+nvl(overpurd_qty,0)-nvl(insp_qty,0)) tot from mdmis.purdd
+      where (nvl(purd_qty,0)+nvl(overpurd_qty,0))-nvl(insp_qty,0) > 0
+      )
+      group by mat_no) c,
+      (select matm_no,sum(tot) ontheway_ttal from (select MATM_NO,(nvl(pur_qty,0)-nvl(INSPED_QTY,0)) tot 
+            from mdmis.bb_purdd
+            where(nvl(pur_qty,0)-nvl(INSPED_QTY,0)) > 0
+            --and MATM_NO = 'J0304000D10000'
+            )
+            group by matm_no) g,
+    (select c.mat_no, sum(c.addprdmat_qty) feed_qty
+        from mdmis.odrm a, mdmis.addprdm b, mdmis.addprdmat c,(select to_char(add_months(SYSDATE,-2),'yyyymmdd') startmonth,TO_CHAR(SYSDATE, 'yyyymmdd') endmonth from dual) d
+        where a.fact_odr_no = b.fact_odr_no
+        and b.addprd_no = c.addprd_no
+        --and c.mat_no = 'D0206A18040000'
+        and a.exgo_mk <> 'Y'
+        and a.cancel_date is null
+        and a.Act_Ins_Date is null
+        and c.repluse_qty is null
+        and B.Addprd_Date between d.startmonth and d.endmonth
+        group by c.mat_no) d,
+    (select mat_no,sum(STOCK_QTY) stock_qty from mdmis.stockm where stock_yymm = (select TO_CHAR(SYSDATE, 'yyyymm') from dual) and stock_id not in ('9','U','W') group by mat_no) e,
+    (select mat_no,STK_QTY from MDMIS.FB_USTOCKMATMT)f,
+    (SELECT MAT_NO,sum(round(pld_req_qty *use_qty / odr_qty ,2)) overflow_qty  --,ACT_INS_DATE,CANCEL_DATE
+from (
+SELECT --T1.FACT_ODR_NO,-- T1.PART_no,t5.part_name, t1.same_part_no,
+T1.MAT_NO,  T1.PLD_REQ_QTY,
+--T2.CUST_REQ_DATE, T2.REV_ODR_DATE,
+T2.ACT_INS_DATE, T2.CANCEL_DATE,-- T2.POSOD_DATE,
+-- T2.LPD_DATE, T2.EXGO_MK, t2.artic_no, t2.style_no, t4.univ_model_name,
+MDMIS.FUN_SQLTOSTR('select sum(b.use_qty) from MDMIS.fb_useodrm a,MDMIS.fb_useodrd b,MDMIS.cutd c where a.fact_no = b.fact_no and a.use_odr_no = b.use_odr_no
+and a.fact_odr_no = b.fact_odr_no and b.fact_no = c.fact_no and b.size_no = c.size_no and a.fact_no = :v1 and a.fact_odr_no = :v2
+and a.ODR_NONPUR_MK = :v3 and c.style_no = :v4 and c.part_no = :v5','',
+5,T1.FACT_NO,T1.FACT_ODR_NO,'Y',T2.STYLE_NO,T1.PART_NO) USE_QTY,
+MDMIS.FUN_SQLTOSTR('select sum(b.size_qty) from MDMIS.odrd b,MDMIS.cutd c where b.fact_no = c.fact_no and b.size_no = c.size_no
+and b.fact_no = :v1 and b.fact_odr_no = :v2 and c.style_no = :v3 and c.part_no = :v4','',
+4,T1.FACT_NO,T1.FACT_ODR_NO,T2.STYLE_NO,T1.PART_NO) ODR_QTY
+FROM MDMIS.PURPLANM T1, MDMIS.ODRM T2,  MDMIS.stylem t4, MDMIS.partm t5
+WHERE t1.fact_no = 'B0VQ'
+--AND T1.MAT_NO = 'Q1301NP5600000'
+AND T2.FACT_NO = T1.FACT_NO AND T2.FACT_ODR_NO = T1.FACT_ODR_NO
+AND NVL(T2.EXGO_MK,'N') like 'N%'
+AND T2.ODR_TYPE NOT IN ('I','1')
+AND T2.ACT_INS_DATE IS NULL
+AND T2.CANCEL_DATE IS NULL
+--AND T3.FACT_NO = T1.FACT_NO AND T3.PURPLAN_NO = T1.PURPLAN_NO  AND T3.PURPLAN_SEQ = T1.PURPLAN_SEQ
+and not exists (
+SELECT B1.SAME_PART_NO FROM MDMIS.PURPLANM B1
+WHERE B1.FACT_NO = T1.FACT_NO AND B1.FACT_ODR_NO = T1.FACT_ODR_NO
+  AND B1.SAME_PART_NO = T1.PART_NO
+  )
+  and t4.fact_no = t2.fact_no and t4.style_no = t2.style_no
+  and T5.FACT_NO = T1.FACT_NO and T5.PART_NO = T1.PART_NO
+)
+group by MAT_NO)h
+where mm.mat_no = a.mat_no(+)
+and mm.mat_no = b.mat_no(+)
+and mm.mat_no = c.mat_no(+)
+and mm.mat_no = d.mat_no(+)
+and mm.mat_no = e.mat_no(+)
+and mm.mat_no = f.mat_no(+)
+--and mm.mat_no LIKE 'Q1301NP5600000%'
+and mm.mat_no LIKE 'UpdString'
+and mm.mat_no = g.matm_no(+)
+and mm.mat_no = h.mat_no(+))
+where stock_qty > 0 or pld_req_qty > 0 or voua_qty > 0 or zaoku >0
+order by mat_no

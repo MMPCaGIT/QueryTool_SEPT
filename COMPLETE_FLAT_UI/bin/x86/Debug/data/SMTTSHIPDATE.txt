@@ -1,0 +1,47 @@
+select distinct a.fact_odr_no "Fty Order No",a.mat_no "Material Code",a.GSCM_MAT_NO MLM_ID,nvl(b.impur_no,d.BB_PURD_NO) "Purchase Order No",a.mat_name "Material Name",a.po_no "PO No", a.artic_no "Article No",a.model_name "Model Name",
+a.REV_ODR_DATE Received_Date,a.crd "CRD Date",a.podd,a.lpd "Prdouction Finish Date",a.ship_date "Export Date",a.odr_qty "Order Qty",a.matm_unit "Unit",a.emc "Material Demand Qty", a.leku "Liku Qty",
+sum(nvl(b.purd_qty,d.PURD_QTY)) "Material Purchase Qty",b.vend_no "Supplier No",c.addprd_no "Replace No",
+c.addprdmat_qty "Replace material Qty"
+from
+(select om.fact_odr_no,om.po_no,om.artic_no,sm.model_name,om.REV_ODR_DATE,om.ship_date,om.cust_req_date CRD,om.POSOD_DATE PODD,om.lpd_date LPD,om.odr_qty,pm.purplan_no, pm.purplan_seq,
+pm.mat_no,mm.GSCM_MAT_NO,mm.mat_name,mm.MATM_UNIT,pm.pld_req_qty EMC,pm.PURED_QTY purd_qty, pm.nonpur_qty leku--,mm.pur_policy
+from mdmis.odrm om,mdmis.purplanm pm, MDMIS.stylem sm, mdmis.matm mm
+where om.fact_odr_no = pm.fact_odr_no
+and om.style_no = sm.style_no
+and pm.mat_no = mm.mat_no
+and pm.same_part_no is null
+and om.SHIP_DATE between 'frDate' and 'toDate'
+) a,
+(select fdd.fact_odr_no,im.impur_no,(im.vend_no||'--'||vnd.VEND_NAME) vend_no,imd.purd_no,imd.impru_seq,imd.mat_no,fdd.PURD_QTY, fdd.purplan_no, fdd.purplan_seq
+from mdmis.impurm im, mdmis.impurd imd,MDMIS.impurds ims, mdmis.fact_purdd fdd, mdmis.vendorm vnd
+where im.IMPUR_NO = imd.IMPUR_NO
+and imd.IMPUR_NO = ims.IMPUR_NO(+)
+and imd.IMPRU_SEQ = ims.IMPRU_SEQ(+)
+and imd.purd_no = fdd.purd_no
+and im.vend_no = vnd.vend_no
+) b,
+(select to_char(wm_concat(addprd_no)) addprd_no,fact_odr_no,mat_no,sum(addprdmat_qty) addprdmat_qty 
+from (
+select distinct aprm.addprd_no,aprm.fact_odr_no,apmat.mat_no,apdd.part_no, apdd.size_no,apmat.ADDPRDMAT_QTY
+from mdmis.addprdm aprm, mdmis.addprdmat apmat, mdmis.addprdd apdd
+where aprm.addprd_no = apmat.addprd_no
+and aprm.addprd_no = apdd.addprd_no
+and apmat.mat_seq = apdd.ADDPRD_SEQ
+)
+group by fact_odr_no,mat_no
+) c,
+(
+select distinct fbb.fact_odr_no,bbd.BB_PURD_NO,bbd.MATM_NO,fbb.PURD_QTY
+from MDMIS.bb_purdd bbd,MDMIS.fact_bb_purdd fbb
+where bbd.bb_purd_no = fbb.BB_PURD_NO
+and bbd.PURNO_SEQ = fbb.PURNO_SEQ
+) d
+where a.fact_odr_no = b.fact_odr_no(+)
+and a.fact_odr_no = c.fact_odr_no(+)
+and a.fact_odr_no = d.fact_odr_no(+)
+and a.mat_no = b.mat_no(+)
+and a.mat_no = c.mat_no(+)
+and a.mat_no = d.MATM_NO(+)
+group by a.fact_odr_no,a.mat_no,a.GSCM_MAT_NO,nvl(b.impur_no,d.BB_PURD_NO),a.po_no,a.mat_name,a.emc, a.artic_no,a.model_name,a.REV_ODR_DATE,a.crd,a.podd,a.lpd,a.ship_date,a.odr_qty,a.matm_unit,a.leku,
+b.vend_no,addprd_no,c.addprdmat_qty
+--order by a.fact_odr_no, a.mat_no

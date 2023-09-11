@@ -1,0 +1,5 @@
+﻿--PI checking ( IDEA ERP DB)--
+select aga_letter_no,impur_no,vend_no,impur_date,res_dlvry_date,pi_no,pi_rev_date,
+edt_date,print_mk,tran_mk,tran_date,modify_date,bank_no,varify_mk 
+from MDTWMIS.impurm where fact_no ='B0VQ'
+and impur_date between 'frDate' and 'toDate'

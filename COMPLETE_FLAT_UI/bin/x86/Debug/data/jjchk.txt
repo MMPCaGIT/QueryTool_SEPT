@@ -1,0 +1,22 @@
+select aa.*,decode(aa.pur_policy,'3',cc.purd_no,bb.purd_no) purd_no,decode(aa.pur_policy,'3',cc.purd_qty,bb.Pur_QTY) purd_qty
+from (select a.dj_no,a.seq_no,a.j_date,a.mat_no,nvl(b.SIZE_NO,'000') size_no,c.mat_name,nvl(b.size_qty,a.qty) JJ_QTY,a.pur_policy
+from MDTWMIS.jjmatm a, MDTWMIS.jjmatd b, MDTWMIS.matm c
+where a.dj_no = b.dj_no(+)
+and a.seq_no = b.seq_no(+)
+and a.mat_no = c.mat_no) aa, (select distinct a.dj_no,a.seq_no,a.purd_no,a.purd_seq,a.mat_no Mat,b.size_no Mat_Size,NVL(b.purd_qty,0) Pur_QTY
+from MDTWMIS.jjmatpurdm a, MDTWMIS.jjmatpurdd b
+where a.dj_no = b.dj_no(+)
+and A.SEQ_NO = B.PURD_SEQ(+)
+and a.purd_no = b.purd_no(+))bb,(select a.dj_no,a.seq_no,a.purd_no,a.purd_seq,a.mat_no,nvl(b.mat_size,'000') mat_size,decode(a.DISTSIZE_CODE,'Y',nvl(b.purd_qty,0)+nvl(OVERPURD_QTY,0),'N',nvl(a.purd_qty,0)+nvl(a.OVERPURD_QTY,0)) purd_qty
+from MDTWMIS.purdd a, MDTWMIS.purdmats b
+where a.purd_no = b.purd_no(+)
+and a.purd_seq = b.purd_seq(+))cc
+where aa.dj_no = bb.dj_no(+)
+and aa.seq_no = bb.seq_no(+)
+and aa.SIZE_NO = bb.mat_size(+)
+and aa.dj_no = cc.dj_no(+)
+and aa.seq_no = cc.seq_no(+)
+and aa.SIZE_NO = cc.mat_size(+)
+--and aa.dj_no = 'JJ220422003'
+and aa.j_date between 'frDate' and 'toDate'
+order by 1,2

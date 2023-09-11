@@ -1,0 +1,7 @@
+select b.in_id Notice_Number,b.container_no,b.arrive_date Arrival_Date,a.purno_no BB_PUR_No,a.purd_no Order_No,a.purd_seq,a.mat_no,C.GSCM_MAT_NO MLM_ID,c.acc_no,
+c.mat_color ||c.mat_name as mat_name,c.matm_unit,a.mat_size as SPEC,c.goods_no || c.goods_seq as HS_Code,c.union_goods_name as Mic_mat_name
+,a.purd_price,a.tot_price as complete_unit_price,a.coin_kind as Currency,a.purd_qty,a.arrive_qty as No_of_arrival,a.arrive_qty,sum(a.arrive_qty * a.purd_price) Total_Arrive_Price,
+a.tot_amt as Full_Price,decode(a.cus_country_no,'143','143--TAIWAN') Country,a.foc_qty,a.art_qty as No_of_pieces,a.goods_wgt as Net_Weight ,a.gross_wei,a.packing_desc,a.close_no as Customs_NO from
+mdmis.imp_arrived A, mdmis.imp_arrivem B,mdmis.matm C where b.in_id=a.in_id and a.mat_no=c.mat_no and b.arrive_date 
+between 'frDate' and 'toDate'
+group by b.in_id,b.arrive_date,b.container_no,a.purd_no,a.purno_no,a.purd_seq,a.mat_no,C.GSCM_MAT_NO,c.acc_no,c.mat_color ||c.mat_name,c.matm_unit,a.mat_size,c.goods_no || c.goods_seq,c.union_goods_name,a.purd_price,a.tot_price,a.coin_kind,a.purd_qty,a.arrive_qty,a.tot_amt,a.cus_country_no,a.foc_qty,a.art_qty,a.goods_wgt,a.gross_wei,a.packing_desc,a.close_no

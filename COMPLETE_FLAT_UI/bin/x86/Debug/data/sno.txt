@@ -1,0 +1,26 @@
+select bb.dj_no document_no,bb.dj_seq "SEQ_NO",aa.Feeding_No,aa.Feeding_Date,aa.fact_odr_no,aa.verify_mk,aa.feeding_seq, aa.mat_no,aa.pur_policy,
+aa.mat_name,aa.feeding_quantity,aa.leku, nvl(BB.MAT_SIZE,'0000') mat_size,nvl(bb.purd_no,cc.purd_no) purd_no,nvl(bb.purd_qty,cc.purd_qty)purd_qty,aa.artic_no,aa.burden_dept||' '||aa.Responsible_Unit Responsible_Unit,aa.ADDPRD_RSON REASON--,cc.purd_no,cc.purd_qty
+from (select a.addprd_no Feeding_No,a.addprd_date Feeding_Date, a.FACT_ODR_NO,a.verify_mk,b.mat_seq Feeding_SEQ,b.mat_no,b.mat_size,C.PUR_POLICY,
+c.mat_name,addprdmat_qty Feeding_quantity,b.fb_use_qty Leku,D.ARTIC_NO,E.ADDPRD_RSON,a.burden_dept,(select DEPART_NAME from mdmis.vou_dept where DEPART_NO = a.burden_dept) Responsible_Unit--,b.PURED_QTY
+from mdmis.addprdm a, (select ADDPRD_NO,mat_seq,nvl(mat_no,replmat_no) mat_no,nvl(addprdmat_qty,repluse_qty) addprdmat_qty,fb_use_qty,mat_size from mdmis.addprdmat) b,
+mdmis.matm c, mdmis.odrm d,MDMIS.ADDPRD_RSON e
+where a.addprd_no = b.addprd_no
+and b.mat_no = c.mat_no
+and a.fact_odr_no = d.fact_odr_no
+and a.ADDPRD_RSON_SEQ = e.ADDPRD_RSON_SEQ
+) aa, (select distinct a.addprd_no, a.addprd_seq,a.dj_no,a.DJ_SEQ,a.mat_no,a.mat_size,b.purd_no,B.PURD_QTY
+from mdmis.addprdsd a, mdmis.jjmatpurdm b
+where a.dj_no = b.dj_no(+)
+and a.dj_seq = b.SEQ_NO(+)
+and A.MAT_NO = b.mat_no(+)) bb, (select distinct a.purd_no,nvl(b.mat_size,'0000') mat_size,a.addvou_no,a.mat_no,nvl(b.PURD_QTY,a.purd_qty)+nvl(nvl(b.OVER_PUR_QTY,0),nvl(a.OVERPURD_QTY,0)) purd_qty
+from mdmis.purdd a, mdmis.purdmats b where a.purd_no = b.purd_no(+)) cc
+where aa.Feeding_No = bb.addprd_no(+)
+and aa.Feeding_SEQ = bb.ADDPRD_SEQ(+)
+and aa.mat_no = bb.mat_no(+)
+and aa.mat_size = bb.mat_size(+)
+and aa.feeding_no = cc.addvou_no(+)
+and aa.mat_no = cc.mat_no(+)
+and aa.mat_size = cc.mat_size(+)
+--and aa.Feeding_No = 'S91223010'
+and aa.Feeding_Date between 'frDate' and 'toDate'
+order by aa.feeding_no, aa.feeding_seq

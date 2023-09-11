@@ -1,0 +1,17 @@
+select distinct aa.impur_no,bb.mat_no,bb.mat_name,bb.impurqty,(select sum(NVL(impur_qty,0)+NVL(overpurd_qty,0))
+from mdmis.impurd cc
+where cc.impur_no=aa.impur_no) Total
+from mdmis.impurm aa,
+(select a.aga_letter_no,a.impur_no,a.mat_no,b.mat_name,sum(NVL(a.impur_qty,0)+NVL(a.overpurd_qty,0)) IMPURQTY
+from mdmis.impurd a,mdmis.matm b
+where a.mat_no=b.mat_no
+--and a.impur_no='YIIV000425YC'
+--and a.mat_no='K070313003B00368'
+group by a.aga_letter_no,a.impur_no,a.mat_no,b.mat_name) bb
+where aa.aga_letter_no=bb.aga_letter_no
+and aa.impur_no(+)=bb.impur_no
+--and aa.impur_no='YIIV000425YC'
+and aa.impur_no LIKE '%txtValue%'
+and bb.mat_no LIKE '%stValue%' --and aa.impur_no like '%txtValue%' 
+and TRIM(REGEXP_REPLACE(Upper(bb.mat_name), '[^[:alnum:]]', '')) LIKE '%artValue%'
+group by aa.impur_no,bb.mat_no,bb.mat_name,bb.impurqty

@@ -1,0 +1,14 @@
+select aa.vend_no,aa.impur_date,aa.AGA_LETTER_NO,aa.impur_no,aa.IMPRU_SEQ,aa.purd_no,aa.mat_no,cc.mat_name,aa.fact_odr_no,aa.purd_qty,bb.inv_no
+from (select A.AGA_LETTER_NO,a.impur_no,a.vend_no,a.impur_date,b.impru_seq,b.purd_no,b.mat_no,c.fact_odr_no,c.purd_qty 
+from mdmis.impurm a, mdmis.impurd b, mdmis.fact_purdd c
+where a.impur_no = b.impur_no
+and b.purd_no = c.purd_no) aa, (select AGA_LETTER_NO,IMPRU_SEQ,mat_no,inv_no--to_char(wm_concat(trim(INV_NO))) INVOICE_NO
+from mdmis.imp_matin
+--group by AGA_LETTER_NO,IMPRU_SEQ,mat_no
+) bb, mdmis.matm cc
+where aa.AGA_LETTER_NO = bb.AGA_LETTER_NO(+)
+and aa.impru_seq = bb.impru_seq(+)
+and aa.mat_no = bb.mat_no(+)
+and aa.mat_no = cc.mat_no
+and aa.impur_date between 'frDate' and 'toDate'
+order by aa.AGA_LETTER_NO,aa.IMPRU_SEQ,aa.impur_date

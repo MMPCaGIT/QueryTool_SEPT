@@ -1,0 +1,1323 @@
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\COMPLETE_FLAT_UI.exe.config
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\COMPLETE_FLAT_UI.exe.manifest
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\COMPLETE_FLAT_UI.application
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\COMPLETE_FLAT_UI.exe
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\COMPLETE_FLAT_UI.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Properties.Resources.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.Cache
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.exe.manifest
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.application
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.exe
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\POUCHEN.REPORT.MM\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.resx
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.cs
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.Designer.cs
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.config
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.manifest
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.application
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.Extensions.WebApi.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FastMember.Signed.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Common.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.License.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Pdf.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.XLS.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.mshtml.dll
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.xml
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Chart.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LikChk.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Messagef.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Notifier.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PlsWait.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Properties.Resources.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.Cache
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe.manifest
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.application
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.pdb
+C:\Users\administrator.PCM\Documents\Visual Studio 2017\Projects\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csprojResolveAssemblyReference.cache
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.resx
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.cs
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.Designer.cs
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.config
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.manifest
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.application
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.Extensions.WebApi.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FastMember.Signed.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Common.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.License.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Pdf.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.XLS.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.mshtml.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.AssemblyReference.cache
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.SuggestedBindingRedirects.cache
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Chart.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EDI_Data_Export.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Matchk.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LikChk.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Loader.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LuckDraw.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Messagef.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Notifier.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PermissionSetting.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PlsWait.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.SMTT.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Properties.Resources.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.UserRegister.resources
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.cache
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.CoreCompileInputs.cache
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe.manifest
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.application
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.CopyComplete
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.pdb
+D:\svn\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EMC.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.resx
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.cs
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.Designer.cs
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.config
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.manifest
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.application
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.Extensions.WebApi.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FastMember.Signed.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Common.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.License.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Pdf.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.XLS.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.mshtml.dll
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.pdb
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.xml
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.AssemblyReference.cache
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.SuggestedBindingRedirects.cache
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Chart.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EDI_Data_Export.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EMC.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Matchk.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LikChk.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Loader.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LuckDraw.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Messagef.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Notifier.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PermissionSetting.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PlsWait.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.SMTT.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Properties.Resources.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.UserRegister.resources
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.cache
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.CoreCompileInputs.cache
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe.manifest
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.application
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.CopyComplete
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe
+D:\Mable\new\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.dll
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.xml
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.pdb
+D:\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Dispatch.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.resx
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.cs
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.Designer.cs
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.config
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.manifest
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.application
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.Extensions.WebApi.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FastMember.Signed.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Common.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.License.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Pdf.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.XLS.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.mshtml.dll
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CircularProgressBar.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MailKit.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\MimeKit.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.pdb
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.xml
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.AssemblyReference.cache
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.SuggestedBindingRedirects.cache
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Chart.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Dispatch.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EDI_Data_Export.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EMC.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Matchk.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LikChk.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Loader.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LuckDraw.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Messagef.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Notifier.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PermissionSetting.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PlsWait.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.SMTT.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Properties.Resources.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.UserRegister.resources
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.cache
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.CoreCompileInputs.cache
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe.manifest
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.application
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.CopyComplete
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe
+D:\C# project\SVN\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\chrome_elf.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libcef.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Chart.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Dispatch.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EDI_Data_Export.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EMC.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.IE.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Matchk.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LikChk.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Loader.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LuckDraw.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Messagef.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Notifier.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PermissionSetting.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.pListbyINV.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PlsWait.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.SMTT.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Properties.Resources.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.UserRegister.resources
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.Cache
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.resx
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.cs
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.Designer.cs
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.config
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.manifest
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.application
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.Extensions.WebApi.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FastMember.Signed.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Common.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.License.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Pdf.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.XLS.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Memory.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Numerics.Vectors.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.ValueTuple.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.mshtml.dll
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.WinForms.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\LiveCharts.Wpf.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Memory.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Numerics.Vectors.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.ValueTuple.xml
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe.manifest
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.application
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.pdb
+D:\C# project\QueryTool\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csprojResolveAssemblyReference.cache
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Dispatch.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EDI_Data_Export.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EMC.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.IE.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Matchk.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LikChk.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Loader.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LuckDraw.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.micWithAcc.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Notifier.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PermissionSetting.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.pListbyINV.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PlsWait.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.SMTT.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Properties.Resources.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.UserRegister.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.Cache
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.resx
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.cs
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.Designer.cs
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.config
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.manifest
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.application
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.Extensions.WebApi.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FastMember.Signed.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Common.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.License.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Pdf.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.XLS.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Memory.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Numerics.Vectors.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.ValueTuple.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.mshtml.dll
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Memory.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Numerics.Vectors.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.ValueTuple.xml
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe.manifest
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.application
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.pdb
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csprojResolveAssemblyReference.cache
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.MatSearch.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PurdmatSearch.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.rpmtrack.resources
+D:\C# project\VS2015\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.zaotrack.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.resx
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.cs
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FormMenuPrincipal.Designer.cs
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_100_percent.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_200_percent.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\cef_extensions.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\d3dcompiler_47.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\devtools_resources.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\icudtl.dat
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libEGL.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\libGLESv2.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\am.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ar.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bg.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\bn.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ca.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\cs.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\da.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\de.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\el.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-GB.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\en-US.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es-419.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\es.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\et.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fa.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fi.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fil.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\fr.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\gu.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\he.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hi.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hr.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\hu.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\id.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\it.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ja.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\kn.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ko.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lt.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\lv.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ml.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\mr.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ms.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nb.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\nl.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pl.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-BR.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\pt-PT.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ro.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ru.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sk.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sl.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sr.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sv.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\sw.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\ta.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\te.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\th.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\tr.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\uk.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\vi.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-CN.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\locales\zh-TW.pak
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\README.txt
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\snapshot_blob.bin
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libEGL.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\swiftshader\libGLESv2.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\v8_context_snapshot.bin
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.Core.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.exe
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.BrowserSubprocess.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.Core.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.XML
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\CefSharp.WinForms.XML
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.config
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe.manifest
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.application
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.exe
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Query Tool.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.Extensions.WebApi.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\FastMember.Signed.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Common.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.License.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.Pdf.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Spire.XLS.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Memory.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Numerics.Vectors.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Threading.Tasks.Extensions.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.ValueTuple.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\WinFormAnimation.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Microsoft.mshtml.dll
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\BouncyCastle.Crypto.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ClosedXML.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\DocumentFormat.OpenXml.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ExcelNumberFormat.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\ICSharpCode.SharpZipLib.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\Npgsql.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OOXML.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXml4Net.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\NPOI.OpenXmlFormats.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Buffers.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Memory.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Numerics.Vectors.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.Threading.Tasks.Extensions.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\bin\x86\Debug\System.ValueTuple.xml
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.BIRPT.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.browzer.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.DataQueries.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Dispatch.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EDI_Data_Export.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.EMC.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.IE.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Matchk.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LikChk.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Loader.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Login.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.LuckDraw.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.MatPriceSearch.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.POstatus_inquiry.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PurdmatSearch.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.MatSearch.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.micWithAcc.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Notifier.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.OderEntry.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.PermissionSetting.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.pListbyINV.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PlsWait.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PopWeb.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.PreviewDataList.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormLogo.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMantCliente.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.Prograssnoti.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.purf13.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.rpmtrack.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.SMTT.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.UserPassChange.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.FormMenuPrincipal.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.Properties.Resources.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\COMPLETE_FLAT_UI.test.FormMenuPrincipal.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.UserRegister.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\QUERY_TOOL.zaotrack.resources
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csproj.GenerateResource.Cache
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe.manifest
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.application
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.exe
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\Query Tool.pdb
+D:\C# project\QueryTool\COMPLETE_FLAT_UI\obj\x86\Debug\POUCHEN.REPORT.MM.csprojResolveAssemblyReference.cache

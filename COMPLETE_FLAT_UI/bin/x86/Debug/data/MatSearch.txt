@@ -1,0 +1,11 @@
+select distinct c.mat_no,c.IS_BLACKLIST,C.MLM_ID,TO_CHAR(wm_concat(RTRIM(a.artic_no))) ARTIC_NO,c.mat_name,MAT_STRING
+from (select mat_no,IS_BLACKLIST,MLM_ID, mat_name ,MAT_STRING, MAT,STOP_MK from(
+select mat_no,IS_BLACKLIST, MLM_ID,mat_name,REGEXP_REPLACE(MAT, '[^0-9A-Za-z]', '') as MAT_STRING, MAT,STOP_MK from
+(select mat_no,IS_BLACKLIST,GSCM_MAT_NO MLM_ID,mat_name,UPPER(LTRIM(RTRIM(REPLACE(mat_name,' ','')))) as MAT,STOP_MK from mdmis.matm where STOP_MK = 'N' or STOP_MK is null))
+where MAT_STRING like UPPER('%txtValue%')and 
+mat_no like TRIM(UPPER('stValue%')) order by mat_no) c, mdmis.bomm b, mdmis.stylem a
+where c.mat_no = b.mat_no(+)
+and b.style_no = a.style_no(+)
+--and a.ARTIC_NO like '%artValue%'
+group by c.mat_no,c.mlm_id,c.mat_name,mat_string,IS_BLACKLIST
+order by c.mat_no

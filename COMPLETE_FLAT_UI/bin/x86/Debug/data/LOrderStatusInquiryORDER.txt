@@ -1,0 +1,52 @@
+SELECT DISTINCT OUTWKPLAN.FACT_ODR_NO,
+                OUTWKPLAN.PURPLAN_SEQ,
+                OUTWKPLAN.MAT_NO,
+                OUTWKPLAN.PLD_REQ_QTY,
+                OUTWKPLAN.NONPUR_QTY,
+                OUTWKPLAN.PURED_QTY,
+                OUTWKPLAN.INSPED_QTY,
+                OUTWKPLAN.BILLED_QTY,
+                mdmis.fun_sqltostr('SELECT MAX(ANS_ETD_DATE)
+                     FROM
+                       (SELECT A.ANS_ETD_DATE
+                       FROM mdmis.purdd a,
+                         mdmis.fact_purdd b
+                       WHERE a.fact_no  = b.fact_no
+                       AND a.purd_no    = b.purd_no
+                       AND a.purd_seq   = b.purd_seq  
+                       AND a.fact_no    = :V1
+                       AND a.mat_no     =:V2
+                       AND b.fact_odr_no=:V3
+                       AND b.purplan_no =:V4
+                       AND b.purplan_seq=:V5
+                       UNION ALL
+                       SELECT A.ANS_ETD_DATE
+                       FROM mdmis.purdd a
+                       WHERE a.fact_no  = :V1
+                       AND a.mat_no     =:V2
+                       AND a.fact_odr_no=:V3
+                       AND a.purplan_no =:V4
+                       AND a.purplan_seq=:V5
+                       )',
+                             '',
+                             10,
+                             OUTWKPLAN.FACT_NO,
+                             OUTWKPLAN.MAT_NO,
+                             OUTWKPLAN.FACT_ODR_NO,
+                             OUTWKPLAN.PURPLAN_NO,
+                             OUTWKPLAN.PURPLAN_SEQ,
+                             OUTWKPLAN.FACT_NO,
+                             OUTWKPLAN.MAT_NO,
+                             OUTWKPLAN.FACT_ODR_NO,
+                             OUTWKPLAN.PURPLAN_NO,
+                             OUTWKPLAN.PURPLAN_SEQ) ANS_ETD_DATE,
+                MATM.MAT_NAME || nvl(MATM.MAT_COLOR, '') MAT_NAME,
+                MATM.MATM_UNIT
+  FROM MDMIS.MATM, MDMIS.OUTWKPLAN, MDMIS.odrm
+ WHERE (matm.fact_no(+) = outwkplan.fact_no)
+   and (outwkplan.mat_no = matm.mat_no(+))
+   and outwkplan.fact_no = odrm.fact_no
+   and outwkplan.fact_odr_no = odrm.fact_odr_no
+   and (OUTWKPLAN.FACT_NO = 'B0VQ')
+   AND (OUTWKPLAN.FACT_ODR_NO in (txtValue))
+   order by outwkplan.fact_odr_no,outwkplan.purplan_seq
